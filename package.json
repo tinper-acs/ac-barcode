@@ -1,6 +1,6 @@
 {
   "name": "ac-barcode",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "条形码组件",
   "keywords": [
     "react",
@@ -95,7 +95,6 @@
     "prop-types": "^15.6.0"
   },
   "dependencies": {
-    "jsbarcode": "^3.11.0",
-    "prop-types": "^15.7.2"
+    "jsbarcode": "^3.11.0"
   }
 }

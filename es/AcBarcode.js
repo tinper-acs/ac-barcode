@@ -32,11 +32,6 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-(function () {
-  var enterModule = (typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal : require('react-hot-loader')).enterModule;
-  enterModule && enterModule(module);
-})();
-
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
@@ -93,10 +88,6 @@ var AcBarcode = function (_Component) {
     }
   };
 
-  AcBarcode.prototype.__reactstandin__regenerateByEval = function __reactstandin__regenerateByEval(key, code) {
-    this[key] = eval(code);
-  };
-
   return AcBarcode;
 }(_react.Component);
 
@@ -139,25 +130,4 @@ AcBarcode.defaultProps = {
   margin: 10
 };
 
-var _default = AcBarcode;
-exports.default = _default;
-;
-
-(function () {
-  var reactHotLoader = (typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal : require('react-hot-loader')).default;
-
-  if (!reactHotLoader) {
-    return;
-  }
-
-  reactHotLoader.register(getDOMNode, 'getDOMNode', 'src/AcBarcode.js');
-  reactHotLoader.register(AcBarcode, 'AcBarcode', 'src/AcBarcode.js');
-  reactHotLoader.register(_default, 'default', 'src/AcBarcode.js');
-})();
-
-;
-
-(function () {
-  var leaveModule = (typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal : require('react-hot-loader')).leaveModule;
-  leaveModule && leaveModule(module);
-})();
+exports.default = AcBarcode;
