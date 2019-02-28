@@ -1,6 +1,7 @@
 # ac-barcode
 
 条形码组件
+
 [![npm version](https://img.shields.io/npm/v/ac-barcode.svg)](https://www.npmjs.com/package/ac-barcode)
 [![NPM downloads](http://img.shields.io/npm/dt/ac-barcode.svg?style=flat)](https://npmjs.org/package/ac-barcode)
 
