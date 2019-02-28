@@ -1,6 +1,6 @@
 {
   "name": "ac-barcode",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "条形码组件",
   "keywords": [
     "react",

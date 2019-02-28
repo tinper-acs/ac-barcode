@@ -2,6 +2,8 @@
 
 条形码组件
 
+![image](https://user-images.githubusercontent.com/3817644/53559495-293c0800-3b85-11e9-9094-f6455cbe9ec5.png)
+
 [![npm version](https://img.shields.io/npm/v/ac-barcode.svg)](https://www.npmjs.com/package/ac-barcode)
 [![NPM downloads](http://img.shields.io/npm/dt/ac-barcode.svg?style=flat)](https://npmjs.org/package/ac-barcode)
 
