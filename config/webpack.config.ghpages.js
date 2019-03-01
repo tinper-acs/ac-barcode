@@ -18,7 +18,7 @@ let publicPath = '/'
 if (name.startsWith('@yonyou')) {
   publicPath = name.replace('@yonyou', '')
 } else if(!name.startsWith('/')){
-  publicPath = `/${name}`
+  publicPath = `/${name}/ghpages`
 }
 
 module.exports = webpackMerge(baseConfig, {

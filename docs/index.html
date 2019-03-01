@@ -20,22 +20,28 @@
     <li class="sidebar-header-3"><a href="#3.-使用">3. 使用</a></li>
     <li class="sidebar-header-3"><a href="#4.-api">4. API</a></li>
     <li class="sidebar-header-3"><a href="#5.-支持标准">5. 支持标准</a></li>
+    <li class="sidebar-header-3"><a href="#6.-changlog">6. CHANGLOG</a></li>
 </ul>
       </div>
       <div class="span9 main"><h1 id="ac-barcode">ac-barcode</h1>
 <p>条形码组件</p>
+<p class="img-container"><img src="https://user-images.githubusercontent.com/3817644/53559495-293c0800-3b85-11e9-9094-f6455cbe9ec5.png" alt="image"></p>
 <p><a href="https://www.npmjs.com/package/ac-barcode"><img src="https://img.shields.io/npm/v/ac-barcode.svg" alt="npm version"></a>
 <a href="https://npmjs.org/package/ac-barcode"><img src="http://img.shields.io/npm/dt/ac-barcode.svg?style=flat" alt="NPM downloads"></a></p>
 <h3 id="1.-简介">1. 简介</h3>
 <p>React条形码组件，使用业界知名 <a href="https://github.com/lindell/JsBarcode">jsbarcode</a> 进行封装，简单、友好的使用体验</p>
 <h3 id="2.-安装">2. 安装</h3>
 <ol class="list">
-<li>通过<code>npm</code>安装<pre class="hljs"><code> npm install ac-upload --save</code></pre></li>
-<li>国内镜像通过<code>cnpm</code>安装<pre class="hljs"><code> cnpm install ac-upload --save</code></pre></li>
-<li>用友内网通过<code>ynpm</code>安装<pre class="hljs"><code> ynpm install ac-upload --save</code></pre></li>
+<li>通过<code>npm</code>安装<pre class="hljs"><code> npm install ac-barcode --save</code></pre></li>
+<li>国内镜像通过<code>cnpm</code>安装<pre class="hljs"><code> cnpm install ac-barcode --save</code></pre></li>
+<li>用友内网通过<code>ynpm</code>安装<pre class="hljs"><code> ynpm install ac-barcode --save</code></pre></li>
 </ol>
 <h3 id="3.-使用">3. 使用</h3>
-<pre class="hljs"><code><span class="hljs-keyword">import</span> AcBarcode <span class="hljs-keyword">from</span> <span class="hljs-string">"ac-barcode"</span>;</code></pre><h3 id="4.-api">4. API</h3>
+<pre class="hljs"><code><span class="hljs-keyword">import</span> AcBarcode <span class="hljs-keyword">from</span> <span class="hljs-string">"ac-barcode"</span>;
+
+render(){
+    <span class="hljs-keyword">return</span> (<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">AcBarcode</span> <span class="hljs-attr">value</span>=<span class="hljs-string">"9787123"</span> /&gt;</span>)
+}</span></code></pre><h3 id="4.-api">4. API</h3>
 <table>
 <thead>
 <tr>
@@ -173,6 +179,12 @@
 </li>
 <li><a href="https://github.com/lindell/JsBarcode/wiki/pharmacode">Pharmacode</a></li>
 <li><a href="https://github.com/lindell/JsBarcode/wiki/codabar">Codabar</a></li>
+</ul>
+<h3 id="6.-changlog">6. CHANGLOG</h3>
+<ul class="list">
+<li><a href="https://github.com/tinper-acs/ac-barcode/releases/tag/1.0.0">1.0.0-完善文档发布正式版</a></li>
+<li><a href="https://github.com/tinper-acs/ac-barcode/releases/tag/0.0.2">0.0.2-修改脚手架工程</a></li>
+<li><a href="https://github.com/tinper-acs/ac-barcode/releases/tag/0.0.1">0.0.1-初次版本实现、增加示例</a></li>
 </ul>
       </div>
     </div>
