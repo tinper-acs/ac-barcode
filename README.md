@@ -15,15 +15,15 @@ React条形码组件，使用业界知名 [jsbarcode](https://github.com/lindell
 
 1. 通过`npm`安装
     ```bash
-    npm install ac-upload --save
+    npm install ac-barcode --save
     ```
 2. 国内镜像通过`cnpm`安装
     ```bash
-    cnpm install ac-upload --save
+    cnpm install ac-barcode --save
     ```
 3. 用友内网通过`ynpm`安装
     ```bash
-    ynpm install ac-upload --save
+    ynpm install ac-barcode --save
     ```
 
 
@@ -31,6 +31,10 @@ React条形码组件，使用业界知名 [jsbarcode](https://github.com/lindell
 
 ```js
 import AcBarcode from "ac-barcode";
+
+render(){
+    return (<AcBarcode value="9787123" />)
+}
 ```
 
 ### 4. API
@@ -81,3 +85,10 @@ import AcBarcode from "ac-barcode";
   * MSI1110
 * [Pharmacode](https://github.com/lindell/JsBarcode/wiki/pharmacode)
 * [Codabar](https://github.com/lindell/JsBarcode/wiki/codabar)
+
+
+### 6. CHANGLOG
+
+* [1.0.0-完善文档发布正式版](https://github.com/tinper-acs/ac-barcode/releases/tag/1.0.0)
+* [0.0.2-修改脚手架工程](https://github.com/tinper-acs/ac-barcode/releases/tag/0.0.2)
+* [0.0.1-初次版本实现、增加示例](https://github.com/tinper-acs/ac-barcode/releases/tag/0.0.1)
